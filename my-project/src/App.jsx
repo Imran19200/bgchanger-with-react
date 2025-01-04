@@ -31,6 +31,21 @@ function App() {
             className='outline-none px-4 py-1 rounded-full text-white shadow-lg'
             style={{ backgroundColor: 'yellow' }}
           > yellow</button>
+          <button
+            onClick={() => setColor('khaki')}
+            className='outline-none px-4 py-1 rounded-full text-white shadow-lg'
+            style={{ backgroundColor: 'khaki' }}
+          > khaki</button>
+          <button
+            onClick={() => setColor('olive')}
+            className='outline-none px-4 py-1 rounded-full text-white shadow-lg'
+            style={{ backgroundColor: 'olive' }}
+          > olive</button>
+          <button
+            onClick={() => setColor('grey')}
+            className='outline-none px-4 py-1 rounded-full text-white shadow-lg'
+            style={{ backgroundColor: 'grey' }}
+          > grey</button>
         </div>
       </div>
     </div>
